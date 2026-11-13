@@ -2618,6 +2618,59 @@ body::after {
 }
 
 
+
+/* PORTFOLIO MOBILE RESPONSIVENESS FIX */
+@media (max-width: 768px) {
+
+    .featured-work,
+    .portfolio-section-heading,
+    .portfolio-project-grid,
+    .portfolio-project-card,
+    .portfolio-capabilities,
+    .capabilities-grid,
+    .portfolio-cta {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .portfolio-project-grid,
+    .capabilities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-project-card,
+    .project-preview {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .project-preview {
+        overflow: hidden;
+    }
+
+    .portfolio-section-heading,
+    .project-details,
+    .portfolio-cta {
+        overflow-wrap: anywhere;
+    }
+
+    .portfolio-project-card img,
+    .project-preview img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .portfolio-capabilities,
+    .portfolio-cta {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
 /* =========================================
    PORTFOLIO LOWER SECTIONS - DESIGN FIX
 ========================================= */
