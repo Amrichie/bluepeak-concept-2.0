@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Bluepeak Concept for digital solutions, creative services and business support.">
+    <title>Contact Us | Bluepeak Concept</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                BLUEPEAK<span>CONCEPT</span><small>®</small>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="partnerships.html">Partnerships</a></li>
+            </ul>
+
+            <a href="contact.html" class="nav-button active">
+                Let's Talk <span>↗</span>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- CONTACT HERO -->
+    <section class="contact-hero">
+        <span class="section-tag">LET'S CONNECT</span>
+
+        <h1>
+            Have an idea?<br>
+            <span>Let's make it happen.</span>
+        </h1>
+
+        <p>
+            Whether you're looking for digital solutions,
+            creative support or a reliable business partner,
+            we'd love to hear from you.
+        </p>
+    </section>
+
+
+    <!-- CONTACT CONTENT -->
+    <section class="contact-section">
+
+        <div class="contact-information">
+            <span class="section-tag">GET IN TOUCH</span>
+
+            <h2>Let's start a conversation.</h2>
+
+            <p>
+                Tell us what you're working on.
+                Our team is ready to discuss how we can help.
+            </p>
+
+            <div class="contact-detail">
+                <span>PHONE NUMBER</span>
+                <h3>09043315770</h3>
+                <a href="tel:+2349043315770">Call Bluepeak ↗</a>
+            </div>
+
+            <div class="contact-detail">
+                <span>WHATSAPP</span>
+                <h3>Chat with our team</h3>
+                <a href="https://wa.me/2349043315770"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Start WhatsApp Conversation ↗
+                </a>
+            </div>
+        </div>
+
+
+        <!-- PROJECT ENQUIRY FORM -->
+        <div class="contact-form-container">
+
+            <h2>Tell us about your project.</h2>
+
+            <form id="contactForm">
+
+                <label for="clientName">Your name</label>
+                <input type="text" id="clientName"
+                    placeholder="Enter your name" required>
+
+                <label for="clientEmail">Email address</label>
+                <input type="email" id="clientEmail"
+                    placeholder="Enter your email" required>
+
+                <label for="projectService">What do you need?</label>
+                <select id="projectService" required>
+                    <option value="">Select a service</option>
+                    <option>Web Development</option>
+                    <option>Graphic Design</option>
+                    <option>Virtual Assistance</option>
+                    <option>Project Management</option>
+                    <option>Other Enquiries</option>
+                </select>
+
+                <label for="projectMessage">Tell us about your project</label>
+                <textarea id="projectMessage" rows="5"
+                    placeholder="Describe what you have in mind..."
+                    required></textarea>
+
+                <button type="submit" class="primary-button">
+                    Send Enquiry ↗
+                </button>
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <a href="index.html" class="logo">
+                BLUEPEAK<span>CONCEPT</span><small>®</small>
+            </a>
+
+            <p>Ideas into Impact.</p>
+
+            <p>
+                © <span id="currentYear"></span>
+                Bluepeak Concept. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
