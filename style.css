@@ -2673,7 +2673,7 @@ body::after {
 
 
 /* PORTFOLIO HERO — MOBILE RESPONSIVENESS */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     .portfolio-hero {
         display: flex;
